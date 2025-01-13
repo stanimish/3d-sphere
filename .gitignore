@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Directory for dependencies
+node_modules
+
+# Production build output
+dist
+
+# Optional: Mac / VSCode / OS-specific or editor-specific files
+.DS_Store
+.vscode
+.idea

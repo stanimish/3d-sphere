@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^6.0.7"
+    },
+    "dependencies": {
+        "gsap": "^3.12.5",
+        "three": "^0.172.0"
+    }
+}
