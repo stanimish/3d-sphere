@@ -48,6 +48,7 @@ html:not(.wf-design-mode) .webgl-sphere {
 
 .feature {
   text-align: left;
+  will-change: transform;
 }
 
 .feature_1 {
@@ -64,13 +65,16 @@ html:not(.wf-design-mode) .webgl-sphere {
 
 .feature:not(.feature_1):nth-child(2n+1) {
   position: absolute;
-  right: 55%;
-  bottom: 15%;
+  right: 50%;
+  bottom: 45%;
 }
 
 .feature:nth-child(2n+2) {
   position: absolute;
-  left: 55%;
-  top: 15%;
+  left: 50%;
+  top: 45%;
 }
 
+.features-container {
+  display: none;
+}
